@@ -1,0 +1,20 @@
+@import url(./font.css);
+
+:root{
+    --poppins:"Poppins";
+    --Open_Sans:"Open_Sans";
+    --white:#fff;
+    --header-bg:#00252E;
+    --bg-button:#684BB1;
+}
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg-button);
+}
